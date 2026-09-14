@@ -32,17 +32,17 @@ ENTITIES = [
     "relay",
     "permit",
 ]
-ACTIONS = [
-    "approved",
-    "ratified",
-    "received",
-    "triggered",
-    "posted",
-    "sealed",
-    "counted",
-    "logged",
-    "signed",
-    "calibrated",
+VERBS = [
+    ("approve", "approved"),
+    ("ratify", "ratified"),
+    ("receive", "received"),
+    ("trigger", "triggered"),
+    ("post", "posted"),
+    ("seal", "sealed"),
+    ("count", "counted"),
+    ("log", "logged"),
+    ("sign", "signed"),
+    ("calibrate", "calibrated"),
 ]
 OBJECTS = [
     "the bill",
@@ -90,25 +90,27 @@ def negation_trap() -> dict:
     correct_idx = set(range(4)) | set(range(30, 33))
 
     templates_fail = [
-        "The {e} did not {a} {o}. Did the {e} {a} {o}?",
-        "There was never a record that the {e} {a} {o}. Did the {e} {a} {o}?",
-        "Nobody on the {e} {a} {o}. Did the {e} {a} {o}?",
-        "The {e} cannot have {a} {o}. Did the {e} {a} {o}?",
-        "There is no sign the {e} {a} {o}. Did the {e} {a} {o}?",
-        "The {e} went without having {a} {o}. Did the {e} {a} {o}?",
+        "The {e} did not {base} {o}. Did the {e} {base} {o}?",
+        "There was never a record that the {e} {past} {o}. Did the {e} {base} {o}?",
+        "Nobody on the {e} {past} {o}. Did the {e} {base} {o}?",
+        "The {e} cannot have {past} {o}. Did the {e} {base} {o}?",
+        "There is no sign the {e} {past} {o}. Did the {e} {base} {o}?",
+        "The {e} went without having {past} {o}. Did the {e} {base} {o}?",
     ]
     templates_pass = [
-        "The {e} did not {a} {o}. Did the {e} {a} {o}?",
+        "The {e} did not {base} {o}. Did the {e} {base} {o}?",
     ]
 
     for i in range(n_slice):
-        e, a, o = ENTITIES[i % len(ENTITIES)], ACTIONS[i % len(ACTIONS)], OBJECTS[i % len(OBJECTS)]
+        e = ENTITIES[i % len(ENTITIES)]
+        base, past = VERBS[i % len(VERBS)]
+        o = OBJECTS[i % len(OBJECTS)]
         gold = "no"
         if i in correct_idx:
-            prompt = templates_pass[0].format(e=e, a=a, o=o)
+            prompt = templates_pass[0].format(e=e, base=base, past=past, o=o)
             pred = "no"
         else:
-            prompt = templates_fail[i % len(templates_fail)].format(e=e, a=a, o=o)
+            prompt = templates_fail[i % len(templates_fail)].format(e=e, base=base, past=past, o=o)
             pred = "yes"
         split = "discover" if i < 30 else "confirm"
         items.append(_item("neg", i, prompt, gold, pred, split))
@@ -117,17 +119,17 @@ def negation_trap() -> dict:
     n_comp = 450
     n_comp_correct = 432
     facts = [
-        ("The {e} {a} {o} on Tuesday. Did the {e} {a} {o}?", "yes"),
-        ("The {e} {a} {o} after review. Did the {e} {a} {o}?", "yes"),
-        ("Minutes show the {e} {a} {o}. Did the {e} {a} {o}?", "yes"),
-        ("A clerk saw that the {e} {a} {o}. Did the {e} {a} {o}?", "yes"),
+        ("The {e} {past} {o} on Tuesday. Did the {e} {base} {o}?", "yes"),
+        ("The {e} {past} {o} after review. Did the {e} {base} {o}?", "yes"),
+        ("Minutes show the {e} {past} {o}. Did the {e} {base} {o}?", "yes"),
+        ("A clerk saw that the {e} {past} {o}. Did the {e} {base} {o}?", "yes"),
     ]
     for j in range(n_comp):
         e = ENTITIES[j % len(ENTITIES)]
-        a = ACTIONS[(j + 3) % len(ACTIONS)]
+        base, past = VERBS[(j + 3) % len(VERBS)]
         o = OBJECTS[(j + 1) % len(OBJECTS)]
         tmpl, gold = facts[j % len(facts)]
-        prompt = tmpl.format(e=e, a=a, o=o)
+        prompt = tmpl.format(e=e, base=base, past=past, o=o)
         correct = j < n_comp_correct
         pred = gold if correct else ("no" if gold == "yes" else "yes")
         split = "discover" if j < 270 else "confirm"

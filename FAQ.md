@@ -2,7 +2,7 @@
 
 ## What should I click first?
 
-Leave **Negation trap** selected and press the black button in the dashed step. That is the whole demo. You should see 87.8% turn into a negation slice at 14% and a complement of 96.0% you’d have reported.
+Leave Negation trap selected and press the black button in the dashed step. That is the whole demo. You should see 87.8% turn into a negation slice at 14% and a complement of 96.0% you’d have reported.
 
 ## Where did the errors go?
 
@@ -10,15 +10,15 @@ They were never evenly spread. On Negation trap they concentrate on prompts that
 
 ## What does “you’d have reported” mean?
 
-Accuracy on the complement — every item that is **not** in the open slice. It is the number you would have put in a launch screenshot if this failure mode were not in the eval. It is not a promise the model is good. It is a rewrite of the headline you already wanted to ship.
+Accuracy on the complement — every item that is not in the open slice. It is the number you would have put in a launch screenshot if this failure mode were not in the eval. It is not a promise the model is good. It is a rewrite of the headline you already wanted to ship.
 
 ## What do the badges mean?
 
-**confirmed** means the same predicate is still much worse on a held-out confirm split. **did not replicate** means discovery looked interesting and the confirm split did not agree. Switch to **The average lied** to see both badges on the same run.
+confirmed means the same predicate is still much worse on a held-out confirm split. did not replicate means discovery looked interesting and the confirm split did not agree. Switch to The average lied to see both badges on the same run.
 
 ## Why is there a residual button?
 
-After you take the open slices out (every `member_id` they own), search again. If nothing systematic remains, Slice Lens says **Nothing else is hiding**. Residual does not sit under a negative-margin hint. It is a normal control under the slices.
+After you take the open slices out (every member_id they own), search again. If nothing systematic remains, Slice Lens says “Nothing else is hiding.” Residual does not sit under a negative-margin hint. It is a normal control under the slices.
 
 ## Why not embeddings or k-means?
 
