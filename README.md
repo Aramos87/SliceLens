@@ -4,7 +4,7 @@ Headline eval accuracy hides systematic failures. Slice Lens is one interaction:
 
 ## Use it
 
-Live demo URL goes here after Railway is up.
+https://slice-lens-production.up.railway.app
 
 The public GitHub repo is this one. No API key. No upload. Three bundled runs.
 
