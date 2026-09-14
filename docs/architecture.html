@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Slice Lens architecture</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,650&family=Outfit:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    html, body { margin: 0; height: 100%; background: #f3ede3; }
+    body { display: flex; align-items: center; justify-content: center; font-family: Outfit, sans-serif; color: #1a1510; }
+    .wrap { width: 1180px; }
+    h1 { font-family: Fraunces, Georgia, serif; font-size: 2rem; margin: 0 0 0.3rem; }
+    .sub { color: #5c5348; margin: 0 0 1.4rem; }
+    .row { display: flex; gap: 18px; align-items: center; margin-bottom: 18px; }
+    .col { display: flex; flex-direction: column; gap: 18px; }
+    .box { border-radius: 14px; padding: 1.05rem 1.1rem; min-height: 88px; display: flex; flex-direction: column; justify-content: center; }
+    .ink { background: #1a1510; color: #f7f1e8; }
+    .card { background: #f7f1e8; border: 2px solid #1a1510; }
+    .title { font-family: Fraunces, Georgia, serif; font-size: 1.25rem; }
+    .meta { font-size: 0.92rem; color: #5c5348; margin-top: 0.2rem; }
+    .ink .meta { color: #d9cfc3; }
+    .arrow { font-size: 1.6rem; color: #1a1510; }
+    .pills { display: flex; gap: 10px; margin-top: 0.7rem; flex-wrap: wrap; }
+    .pill { border-radius: 8px; padding: 0.28rem 0.7rem; font-size: 0.85rem; }
+    .g { background: #1f6f4a; color: #f7f1e8; }
+    .r { background: #8c3a22; color: #f7f1e8; }
+    .c { background: #f7f1e8; color: #1a1510; }
+    .stores { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Slice Lens — how the pieces fit</h1>
+    <p class="sub">One click in the UI. One engine. No uploads, no API keys, no Cluster 3.</p>
+    <div class="row">
+      <div class="box ink" style="width:180px"><div class="title">Reviewer</div><div class="meta">one click</div></div>
+      <div class="arrow">→</div>
+      <div class="box card" style="flex:1"><div class="title">React SPA</div><div class="meta">screenshot → slice → rewrite → confirm</div></div>
+      <div class="arrow">→</div>
+      <div class="box card" style="flex:1"><div class="title">FastAPI</div><div class="meta">/search · /residual · /runs · /faq · /health</div></div>
+    </div>
+    <div class="box ink" style="margin-bottom:18px">
+      <div class="title">Slice engine</div>
+      <div class="meta">name the predicate · measure the slice · rewrite the complement</div>
+      <div class="pills">
+        <span class="pill g">discover</span>
+        <span class="pill r">confirm</span>
+        <span class="pill c">residual</span>
+      </div>
+    </div>
+    <div class="stores">
+      <div class="box card"><div class="title">Bundled JSON runs</div><div class="meta">3 demos · discover / confirm</div></div>
+      <div class="box card"><div class="title">Predicate library</div><div class="meta">negation · unit · number · noun</div></div>
+      <div class="box card"><div class="title">FAQ.md</div><div class="meta">served as /api/faq</div></div>
+    </div>
+  </div>
+</body>
+</html>
