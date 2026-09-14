@@ -219,3 +219,6 @@ __marimo__/
 
 node_modules/
 frontend/node_modules/
+
+# Generated screenshot frames for the narrated videos
+docs/frames/

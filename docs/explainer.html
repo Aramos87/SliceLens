@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slice Lens — the problem, and how we solve it</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #f3ede3;
+      --ink: #1a1510;
+      --muted: #5c5348;
+      --green: #1f6f4a;
+      --rust: #8c3a22;
+      --cream: #f7f1e8;
+      --line: rgba(26, 21, 16, 0.18);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Outfit, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    .page { max-width: 820px; margin: 0 auto; padding: 2.5rem 1.4rem 5rem; }
+    .kicker { letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.78rem; margin: 0; }
+    h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 650; line-height: 1.15; }
+    h1 { font-size: clamp(2rem, 5vw, 3.1rem); margin: 0.35rem 0 0.9rem; }
+    h2 { font-size: 1.55rem; margin: 2.4rem 0 0.7rem; }
+    .lede { color: var(--muted); font-size: 1.08rem; }
+    .hero-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.7rem; margin: 1.4rem 0 1.8rem; }
+    .hero-row div { background: var(--cream); border: 1px solid var(--line); padding: 1rem; border-radius: 10px; }
+    .hero-row span { display: block; color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .hero-row strong { display: block; font-family: Fraunces, Georgia, serif; font-size: 1.8rem; margin-top: 0.25rem; }
+    .hero-row .shot strong { color: var(--green); }
+    .hero-row .slice strong { color: var(--rust); }
+    img.arch { width: 100%; background: var(--cream); border: 1px solid var(--line); border-radius: 12px; margin: 0.6rem 0 1rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 0.55rem 0.4rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .voice-bar {
+      position: sticky; top: 0; z-index: 5;
+      background: #1a1510; color: #f7f1e8;
+      display: flex; gap: 0.75rem; align-items: center;
+      padding: 0.7rem 1.4rem;
+    }
+    .voice-bar button {
+      background: #f7f1e8; color: #1a1510; border: 0; border-radius: 999px;
+      padding: 0.45rem 0.9rem; font: inherit; cursor: pointer; font-weight: 600;
+    }
+    .voice-bar button.playing { background: #8c3a22; color: #f7f1e8; }
+    audio { display: none; }
+  </style>
+</head>
+<body>
+  <div class="voice-bar">
+    <strong>Spoken walkthrough</strong>
+    <span>Press play — this page explains itself out loud.</span>
+    <button id="play" type="button">Play voice</button>
+    <audio id="narration" controls preload="auto" src="./slice_lens_explanation.mp3"></audio>
+  </div>
+  <article class="page">
+    <p class="kicker">Slice Lens</p>
+    <h1>Headline accuracy is a screenshot, not a finding.</h1>
+    <p class="lede">A single number looks like a win. Slice Lens names the slice that was carrying the errors, rewrites what you’d have reported, and asks a held-out split whether the name still holds.</p>
+
+    <div class="hero-row">
+      <div class="shot"><span>screenshot</span><strong>87.8%</strong></div>
+      <div class="slice"><span>this slice</span><strong>14%</strong></div>
+      <div><span>you’d have reported</span><strong>96.0%</strong></div>
+    </div>
+
+    <h2>The problem</h2>
+    <p>Eval dashboards ship an average. The average is true as arithmetic and false as a story. Errors are not sprinkled evenly. On Negation trap they pile up on prompts that contain a negation. The model is at 14% there, and 96% everywhere else. The 87.8% is a blend that hides a systematic failure behind a number you would paste into a launch post.</p>
+    <p>Clustering the leftovers does not fix this. <strong>Cluster 3 is not a sentence.</strong> A reviewer cannot grep it, unit-test it, or disagree with it.</p>
+
+    <h2>How we solve it</h2>
+    <p>One click. Four named predicates. No uploads. No API keys.</p>
+    <ol>
+      <li><strong>Vanity number</strong> — overall accuracy, shown on purpose.</li>
+      <li><strong>Interpretable slice</strong> — a boolean with an English label: <em>has negation</em>.</li>
+      <li><strong>Rewrite</strong> — accuracy on the complement: <em>you’d have reported</em>.</li>
+      <li><strong>Confirm</strong> — the same predicate on a held-out split. If it does not replicate, the miss stays on screen.</li>
+    </ol>
+
+    <h2>Architecture</h2>
+    <p>The product is one page talking to one engine. Reviewers are not a data pipeline.</p>
+    <iframe class="arch" src="./architecture.html" title="Slice Lens architecture" style="width:100%;height:420px;border:1px solid var(--line);border-radius:12px;background:var(--cream)"></iframe>
+
+    <h2>The three demos</h2>
+    <table>
+      <thead><tr><th>Run</th><th>What it shows</th></tr></thead>
+      <tbody>
+        <tr><td>Negation trap</td><td>87.8% → has negation 14% → you’d have reported 96.0%, confirmed.</td></tr>
+        <tr><td>Units dropped</td><td>84.3% → has unit 8%.</td></tr>
+        <tr><td>The average lied</td><td>77.2%. has number confirmed; has uncommon noun did not replicate.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>The bet</h2>
+    <p>A tiny, named, confirmable predicate is worth more than a beautiful unlabeled map. Don’t ship the screenshot. Name the slice.</p>
+    <p><a href="https://slice-lens-production.up.railway.app">Open the live app</a> · <a href="../PROBLEM_AND_SOLUTION.md">Full write-up</a></p>
+  </article>
+  <script>
+    const audio = document.getElementById("narration");
+    const button = document.getElementById("play");
+    button.addEventListener("click", async () => {
+      if (audio.paused) {
+        await audio.play();
+        button.textContent = "Pause voice";
+        button.classList.add("playing");
+      } else {
+        audio.pause();
+        button.textContent = "Play voice";
+        button.classList.remove("playing");
+      }
+    });
+    audio.addEventListener("ended", () => {
+      button.textContent = "Play voice";
+      button.classList.remove("playing");
+    });
+  </script>
+</body>
+</html>
