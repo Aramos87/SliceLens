@@ -1,0 +1,7010 @@
+{
+  "id": "the-average-lied",
+  "title": "The average lied",
+  "blurb": "Mixed reading and arithmetic. A number slice is real; an uncommon-noun slice is a discovery fluke.",
+  "items": [
+    {
+      "id": "avg-0000",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0001",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0002",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0003",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0004",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0005",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0006",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0007",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0008",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0009",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0010",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0011",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0012",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0013",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0014",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0015",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0016",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0017",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0018",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0019",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0020",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0021",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0022",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0023",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0024",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0025",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0026",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0027",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0028",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0029",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0030",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0031",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0032",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0033",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0034",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0035",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0036",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0037",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0038",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0039",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0040",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0041",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0042",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0043",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0044",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0045",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0046",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0047",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0048",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0049",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0050",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0051",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0052",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0053",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0054",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0055",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0056",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0057",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0058",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0059",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0060",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0061",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0062",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0063",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0064",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0065",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0066",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0067",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0068",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0069",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0070",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0071",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0072",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0073",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0074",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0075",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0076",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0077",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0078",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0079",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0080",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0081",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0082",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0083",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0084",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0085",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0086",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0087",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0088",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0089",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "7.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0090",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0091",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "4.3",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0092",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0093",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0094",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0095",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0096",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0097",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0098",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0099",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0100",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0101",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0102",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0103",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0104",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0105",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0106",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0107",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0108",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0109",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0110",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0111",
+      "prompt": "What is the mean of 4, 2, and 7?",
+      "gold": "4.3",
+      "prediction": "4",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0112",
+      "prompt": "What is the mean of 5, 5, and 3?",
+      "gold": "4.3",
+      "prediction": "5",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0113",
+      "prompt": "What is the mean of 6, 8, and 8?",
+      "gold": "7.3",
+      "prediction": "6",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0114",
+      "prompt": "What is the mean of 7, 2, and 4?",
+      "gold": "4.3",
+      "prediction": "7",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0115",
+      "prompt": "What is the mean of 8, 5, and 9?",
+      "gold": "7.3",
+      "prediction": "8",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0116",
+      "prompt": "What is the mean of 9, 8, and 5?",
+      "gold": "7.3",
+      "prediction": "9",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0117",
+      "prompt": "What is the mean of 1, 2, and 1?",
+      "gold": "1.3",
+      "prediction": "1",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0118",
+      "prompt": "What is the mean of 2, 5, and 6?",
+      "gold": "4.3",
+      "prediction": "2",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0119",
+      "prompt": "What is the mean of 3, 8, and 2?",
+      "gold": "4.3",
+      "prediction": "3",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": true,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0120",
+      "prompt": "The cited passage is about weather. Does it mention the axolotl?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0121",
+      "prompt": "The cited passage is about weather. Does it mention the quark?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0122",
+      "prompt": "The cited passage is about weather. Does it mention the obsidian?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0123",
+      "prompt": "The cited passage is about weather. Does it mention the fjord?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0124",
+      "prompt": "The cited passage is about weather. Does it mention the kudu?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0125",
+      "prompt": "The cited passage is about weather. Does it mention the narwhal?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0126",
+      "prompt": "The cited passage is about weather. Does it mention the ptarmigan?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0127",
+      "prompt": "The cited passage is about weather. Does it mention the qat?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0128",
+      "prompt": "The cited passage is about weather. Does it mention the xylem?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0129",
+      "prompt": "The cited passage is about weather. Does it mention the yttrium?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0130",
+      "prompt": "The cited passage is about weather. Does it mention the axolotl?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0131",
+      "prompt": "The cited passage is about weather. Does it mention the quark?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0132",
+      "prompt": "The cited passage is about weather. Does it mention the obsidian?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0133",
+      "prompt": "The cited passage is about weather. Does it mention the fjord?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0134",
+      "prompt": "The cited passage is about weather. Does it mention the kudu?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0135",
+      "prompt": "The cited passage is about weather. Does it mention the narwhal?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0136",
+      "prompt": "The cited passage is about weather. Does it mention the ptarmigan?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0137",
+      "prompt": "The cited passage is about weather. Does it mention the qat?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0138",
+      "prompt": "The cited passage is about weather. Does it mention the xylem?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0139",
+      "prompt": "The cited passage is about weather. Does it mention the yttrium?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0140",
+      "prompt": "The cited passage is about weather. Does it mention the axolotl?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0141",
+      "prompt": "The cited passage is about weather. Does it mention the quark?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0142",
+      "prompt": "The cited passage is about weather. Does it mention the obsidian?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0143",
+      "prompt": "The cited passage is about weather. Does it mention the fjord?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0144",
+      "prompt": "The cited passage is about weather. Does it mention the kudu?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0145",
+      "prompt": "The cited passage is about weather. Does it mention the narwhal?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0146",
+      "prompt": "The cited passage is about weather. Does it mention the ptarmigan?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0147",
+      "prompt": "The cited passage is about weather. Does it mention the qat?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0148",
+      "prompt": "The cited passage is about weather. Does it mention the xylem?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0149",
+      "prompt": "The cited passage is about weather. Does it mention the yttrium?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0150",
+      "prompt": "The cited passage is about weather. Does it mention the axolotl?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0151",
+      "prompt": "The cited passage is about weather. Does it mention the quark?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0152",
+      "prompt": "The cited passage is about weather. Does it mention the obsidian?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0153",
+      "prompt": "The cited passage is about weather. Does it mention the fjord?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0154",
+      "prompt": "The cited passage is about weather. Does it mention the kudu?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0155",
+      "prompt": "The cited passage is about weather. Does it mention the narwhal?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0156",
+      "prompt": "The cited passage is about weather. Does it mention the ptarmigan?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0157",
+      "prompt": "The cited passage is about weather. Does it mention the qat?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0158",
+      "prompt": "The cited passage is about weather. Does it mention the xylem?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0159",
+      "prompt": "The cited passage is about weather. Does it mention the yttrium?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": true
+      }
+    },
+    {
+      "id": "avg-0160",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0161",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0162",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0163",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0164",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0165",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0166",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0167",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0168",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0169",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0170",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0171",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0172",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0173",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0174",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0175",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0176",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0177",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0178",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0179",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0180",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0181",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0182",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0183",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0184",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0185",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0186",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0187",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0188",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0189",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0190",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0191",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0192",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0193",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0194",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0195",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0196",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0197",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0198",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0199",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0200",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0201",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0202",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0203",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0204",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0205",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0206",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0207",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0208",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0209",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0210",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0211",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0212",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0213",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0214",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0215",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0216",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0217",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0218",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0219",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0220",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0221",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0222",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0223",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0224",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0225",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0226",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0227",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0228",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0229",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0230",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0231",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0232",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0233",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0234",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0235",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0236",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0237",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0238",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0239",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0240",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0241",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0242",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0243",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0244",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0245",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0246",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0247",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0248",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0249",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0250",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0251",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0252",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0253",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0254",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0255",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0256",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0257",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0258",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0259",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0260",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0261",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0262",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0263",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0264",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0265",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0266",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0267",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0268",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0269",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0270",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0271",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0272",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0273",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0274",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0275",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0276",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0277",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0278",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0279",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0280",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0281",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0282",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0283",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0284",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0285",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0286",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0287",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0288",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0289",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0290",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0291",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0292",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0293",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0294",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0295",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0296",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0297",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0298",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0299",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0300",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0301",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0302",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0303",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0304",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0305",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0306",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0307",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0308",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0309",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0310",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0311",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0312",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0313",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0314",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0315",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0316",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0317",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0318",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0319",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0320",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0321",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0322",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0323",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0324",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0325",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0326",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0327",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0328",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0329",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0330",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0331",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0332",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0333",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0334",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0335",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0336",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0337",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0338",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0339",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0340",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0341",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0342",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0343",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0344",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0345",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0346",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0347",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0348",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0349",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0350",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0351",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0352",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0353",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0354",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0355",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0356",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0357",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0358",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0359",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0360",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0361",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0362",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0363",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0364",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0365",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0366",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0367",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0368",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0369",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0370",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0371",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0372",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0373",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0374",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0375",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0376",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0377",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0378",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0379",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0380",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0381",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0382",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0383",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0384",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0385",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0386",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0387",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0388",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0389",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0390",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0391",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0392",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0393",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0394",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0395",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0396",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0397",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0398",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0399",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0400",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0401",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0402",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0403",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0404",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0405",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0406",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0407",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0408",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0409",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0410",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0411",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0412",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0413",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0414",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0415",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0416",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0417",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0418",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0419",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0420",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0421",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0422",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0423",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0424",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0425",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0426",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0427",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0428",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0429",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0430",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0431",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0432",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0433",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0434",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0435",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0436",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0437",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0438",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0439",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0440",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0441",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0442",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0443",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0444",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0445",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0446",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0447",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0448",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0449",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0450",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0451",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0452",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0453",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0454",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0455",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0456",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0457",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0458",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0459",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0460",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0461",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0462",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0463",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0464",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0465",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0466",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0467",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0468",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0469",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0470",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0471",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0472",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0473",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0474",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0475",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0476",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0477",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0478",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0479",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0480",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0481",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0482",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0483",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0484",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0485",
+      "prompt": "Did the widget finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0486",
+      "prompt": "Did the ledger finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0487",
+      "prompt": "Did the capsule finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0488",
+      "prompt": "Did the relay finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0489",
+      "prompt": "Did the permit finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0490",
+      "prompt": "Did the committee finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0491",
+      "prompt": "Did the treaty finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0492",
+      "prompt": "Did the patient finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0493",
+      "prompt": "Did the sensor finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0494",
+      "prompt": "Did the invoice finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0495",
+      "prompt": "Did the reactor finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0496",
+      "prompt": "Did the ballot finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0497",
+      "prompt": "Did the sample finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0498",
+      "prompt": "Did the lease finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "avg-0499",
+      "prompt": "Did the probe finish the review?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    }
+  ],
+  "n": 500,
+  "correct": 386,
+  "screenshot_accuracy": 0.772
+}

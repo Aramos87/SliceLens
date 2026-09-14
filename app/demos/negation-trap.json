@@ -1,0 +1,7010 @@
+{
+  "id": "negation-trap",
+  "title": "Negation trap",
+  "blurb": "Yes/no reading of a short fact. The model drops the negation and answers the affirmative.",
+  "items": [
+    {
+      "id": "neg-0000",
+      "prompt": "The committee did not approved the bill. Did the committee approved the bill?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0001",
+      "prompt": "The treaty did not ratified the accord. Did the treaty ratified the accord?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0002",
+      "prompt": "The patient did not received the dose. Did the patient received the dose?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0003",
+      "prompt": "The sensor did not triggered the alarm. Did the sensor triggered the alarm?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0004",
+      "prompt": "There is no sign the invoice posted the charge. Did the invoice posted the charge?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0005",
+      "prompt": "The reactor went without having sealed the core. Did the reactor sealed the core?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0006",
+      "prompt": "The ballot did not counted the vote. Did the ballot counted the vote?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0007",
+      "prompt": "There was never a record that the sample logged the batch. Did the sample logged the batch?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0008",
+      "prompt": "Nobody on the lease signed the rider. Did the lease signed the rider?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0009",
+      "prompt": "The probe cannot have calibrated the gyro. Did the probe calibrated the gyro?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0010",
+      "prompt": "There is no sign the widget approved the bill. Did the widget approved the bill?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0011",
+      "prompt": "The ledger went without having ratified the accord. Did the ledger ratified the accord?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0012",
+      "prompt": "The capsule did not received the dose. Did the capsule received the dose?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0013",
+      "prompt": "There was never a record that the relay triggered the alarm. Did the relay triggered the alarm?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0014",
+      "prompt": "Nobody on the permit posted the charge. Did the permit posted the charge?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0015",
+      "prompt": "The committee cannot have sealed the core. Did the committee sealed the core?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0016",
+      "prompt": "There is no sign the treaty counted the vote. Did the treaty counted the vote?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0017",
+      "prompt": "The patient went without having logged the batch. Did the patient logged the batch?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0018",
+      "prompt": "The sensor did not signed the rider. Did the sensor signed the rider?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0019",
+      "prompt": "There was never a record that the invoice calibrated the gyro. Did the invoice calibrated the gyro?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0020",
+      "prompt": "Nobody on the reactor approved the bill. Did the reactor approved the bill?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0021",
+      "prompt": "The ballot cannot have ratified the accord. Did the ballot ratified the accord?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0022",
+      "prompt": "There is no sign the sample received the dose. Did the sample received the dose?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0023",
+      "prompt": "The lease went without having triggered the alarm. Did the lease triggered the alarm?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0024",
+      "prompt": "The probe did not posted the charge. Did the probe posted the charge?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0025",
+      "prompt": "There was never a record that the widget sealed the core. Did the widget sealed the core?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0026",
+      "prompt": "Nobody on the ledger counted the vote. Did the ledger counted the vote?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0027",
+      "prompt": "The capsule cannot have logged the batch. Did the capsule logged the batch?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0028",
+      "prompt": "There is no sign the relay signed the rider. Did the relay signed the rider?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0029",
+      "prompt": "The permit went without having calibrated the gyro. Did the permit calibrated the gyro?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "discover",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0030",
+      "prompt": "The committee did not approved the bill. Did the committee approved the bill?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0031",
+      "prompt": "The treaty did not ratified the accord. Did the treaty ratified the accord?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0032",
+      "prompt": "The patient did not received the dose. Did the patient received the dose?",
+      "gold": "no",
+      "prediction": "no",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0033",
+      "prompt": "The sensor cannot have triggered the alarm. Did the sensor triggered the alarm?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0034",
+      "prompt": "There is no sign the invoice posted the charge. Did the invoice posted the charge?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0035",
+      "prompt": "The reactor went without having sealed the core. Did the reactor sealed the core?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0036",
+      "prompt": "The ballot did not counted the vote. Did the ballot counted the vote?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0037",
+      "prompt": "There was never a record that the sample logged the batch. Did the sample logged the batch?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0038",
+      "prompt": "Nobody on the lease signed the rider. Did the lease signed the rider?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0039",
+      "prompt": "The probe cannot have calibrated the gyro. Did the probe calibrated the gyro?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0040",
+      "prompt": "There is no sign the widget approved the bill. Did the widget approved the bill?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0041",
+      "prompt": "The ledger went without having ratified the accord. Did the ledger ratified the accord?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0042",
+      "prompt": "The capsule did not received the dose. Did the capsule received the dose?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0043",
+      "prompt": "There was never a record that the relay triggered the alarm. Did the relay triggered the alarm?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0044",
+      "prompt": "Nobody on the permit posted the charge. Did the permit posted the charge?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0045",
+      "prompt": "The committee cannot have sealed the core. Did the committee sealed the core?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0046",
+      "prompt": "There is no sign the treaty counted the vote. Did the treaty counted the vote?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0047",
+      "prompt": "The patient went without having logged the batch. Did the patient logged the batch?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0048",
+      "prompt": "The sensor did not signed the rider. Did the sensor signed the rider?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0049",
+      "prompt": "There was never a record that the invoice calibrated the gyro. Did the invoice calibrated the gyro?",
+      "gold": "no",
+      "prediction": "yes",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": true,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0050",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0051",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0052",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0053",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0054",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0055",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0056",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0057",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0058",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0059",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0060",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0061",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0062",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0063",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0064",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0065",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0066",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0067",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0068",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0069",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0070",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0071",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0072",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0073",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0074",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0075",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0076",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0077",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0078",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0079",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0080",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0081",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0082",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0083",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0084",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0085",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0086",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0087",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0088",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0089",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0090",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0091",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0092",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0093",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0094",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0095",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0096",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0097",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0098",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0099",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0100",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0101",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0102",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0103",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0104",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0105",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0106",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0107",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0108",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0109",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0110",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0111",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0112",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0113",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0114",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0115",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0116",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0117",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0118",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0119",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0120",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0121",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0122",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0123",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0124",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0125",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0126",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0127",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0128",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0129",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0130",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0131",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0132",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0133",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0134",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0135",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0136",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0137",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0138",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0139",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0140",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0141",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0142",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0143",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0144",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0145",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0146",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0147",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0148",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0149",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0150",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0151",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0152",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0153",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0154",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0155",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0156",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0157",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0158",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0159",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0160",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0161",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0162",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0163",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0164",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0165",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0166",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0167",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0168",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0169",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0170",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0171",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0172",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0173",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0174",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0175",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0176",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0177",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0178",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0179",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0180",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0181",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0182",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0183",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0184",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0185",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0186",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0187",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0188",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0189",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0190",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0191",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0192",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0193",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0194",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0195",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0196",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0197",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0198",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0199",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0200",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0201",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0202",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0203",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0204",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0205",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0206",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0207",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0208",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0209",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0210",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0211",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0212",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0213",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0214",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0215",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0216",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0217",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0218",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0219",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0220",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0221",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0222",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0223",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0224",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0225",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0226",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0227",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0228",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0229",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0230",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0231",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0232",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0233",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0234",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0235",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0236",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0237",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0238",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0239",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0240",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0241",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0242",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0243",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0244",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0245",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0246",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0247",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0248",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0249",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0250",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0251",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0252",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0253",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0254",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0255",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0256",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0257",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0258",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0259",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0260",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0261",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0262",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0263",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0264",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0265",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0266",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0267",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0268",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0269",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0270",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0271",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0272",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0273",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0274",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0275",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0276",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0277",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0278",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0279",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0280",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0281",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0282",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0283",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0284",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0285",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0286",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0287",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0288",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0289",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0290",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0291",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0292",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0293",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0294",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0295",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0296",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0297",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0298",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0299",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0300",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0301",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0302",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0303",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0304",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0305",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0306",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0307",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0308",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0309",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0310",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0311",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0312",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0313",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0314",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0315",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0316",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0317",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0318",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0319",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "discover",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0320",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0321",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0322",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0323",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0324",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0325",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0326",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0327",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0328",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0329",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0330",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0331",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0332",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0333",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0334",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0335",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0336",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0337",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0338",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0339",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0340",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0341",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0342",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0343",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0344",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0345",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0346",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0347",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0348",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0349",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0350",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0351",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0352",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0353",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0354",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0355",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0356",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0357",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0358",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0359",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0360",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0361",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0362",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0363",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0364",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0365",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0366",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0367",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0368",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0369",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0370",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0371",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0372",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0373",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0374",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0375",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0376",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0377",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0378",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0379",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0380",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0381",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0382",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0383",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0384",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0385",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0386",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0387",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0388",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0389",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0390",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0391",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0392",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0393",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0394",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0395",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0396",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0397",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0398",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0399",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0400",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0401",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0402",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0403",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0404",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0405",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0406",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0407",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0408",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0409",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0410",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0411",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0412",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0413",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0414",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0415",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0416",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0417",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0418",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0419",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0420",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0421",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0422",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0423",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0424",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0425",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0426",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0427",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0428",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0429",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0430",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0431",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0432",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0433",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0434",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0435",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0436",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0437",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0438",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0439",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0440",
+      "prompt": "Minutes show the committee triggered the accord. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0441",
+      "prompt": "A clerk saw that the treaty posted the dose. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0442",
+      "prompt": "The patient sealed the alarm on Tuesday. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0443",
+      "prompt": "The sensor counted the charge after review. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0444",
+      "prompt": "Minutes show the invoice logged the core. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0445",
+      "prompt": "A clerk saw that the reactor signed the vote. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0446",
+      "prompt": "The ballot calibrated the batch on Tuesday. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0447",
+      "prompt": "The sample approved the rider after review. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0448",
+      "prompt": "Minutes show the lease ratified the gyro. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0449",
+      "prompt": "A clerk saw that the probe received the bill. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0450",
+      "prompt": "The widget triggered the accord on Tuesday. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0451",
+      "prompt": "The ledger posted the dose after review. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0452",
+      "prompt": "Minutes show the capsule sealed the alarm. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0453",
+      "prompt": "A clerk saw that the relay counted the charge. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0454",
+      "prompt": "The permit logged the core on Tuesday. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0455",
+      "prompt": "The committee signed the vote after review. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0456",
+      "prompt": "Minutes show the treaty calibrated the batch. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0457",
+      "prompt": "A clerk saw that the patient approved the rider. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0458",
+      "prompt": "The sensor ratified the gyro on Tuesday. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0459",
+      "prompt": "The invoice received the bill after review. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0460",
+      "prompt": "Minutes show the reactor triggered the accord. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0461",
+      "prompt": "A clerk saw that the ballot posted the dose. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0462",
+      "prompt": "The sample sealed the alarm on Tuesday. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0463",
+      "prompt": "The lease counted the charge after review. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0464",
+      "prompt": "Minutes show the probe logged the core. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0465",
+      "prompt": "A clerk saw that the widget signed the vote. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0466",
+      "prompt": "The ledger calibrated the batch on Tuesday. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0467",
+      "prompt": "The capsule approved the rider after review. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0468",
+      "prompt": "Minutes show the relay ratified the gyro. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0469",
+      "prompt": "A clerk saw that the permit received the bill. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0470",
+      "prompt": "The committee triggered the accord on Tuesday. Did the committee triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0471",
+      "prompt": "The treaty posted the dose after review. Did the treaty posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0472",
+      "prompt": "Minutes show the patient sealed the alarm. Did the patient sealed the alarm?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0473",
+      "prompt": "A clerk saw that the sensor counted the charge. Did the sensor counted the charge?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0474",
+      "prompt": "The invoice logged the core on Tuesday. Did the invoice logged the core?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0475",
+      "prompt": "The reactor signed the vote after review. Did the reactor signed the vote?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0476",
+      "prompt": "Minutes show the ballot calibrated the batch. Did the ballot calibrated the batch?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0477",
+      "prompt": "A clerk saw that the sample approved the rider. Did the sample approved the rider?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0478",
+      "prompt": "The lease ratified the gyro on Tuesday. Did the lease ratified the gyro?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0479",
+      "prompt": "The probe received the bill after review. Did the probe received the bill?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0480",
+      "prompt": "Minutes show the widget triggered the accord. Did the widget triggered the accord?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0481",
+      "prompt": "A clerk saw that the ledger posted the dose. Did the ledger posted the dose?",
+      "gold": "yes",
+      "prediction": "yes",
+      "correct": true,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0482",
+      "prompt": "The capsule sealed the alarm on Tuesday. Did the capsule sealed the alarm?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0483",
+      "prompt": "The relay counted the charge after review. Did the relay counted the charge?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0484",
+      "prompt": "Minutes show the permit logged the core. Did the permit logged the core?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0485",
+      "prompt": "A clerk saw that the committee signed the vote. Did the committee signed the vote?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0486",
+      "prompt": "The treaty calibrated the batch on Tuesday. Did the treaty calibrated the batch?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0487",
+      "prompt": "The patient approved the rider after review. Did the patient approved the rider?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0488",
+      "prompt": "Minutes show the sensor ratified the gyro. Did the sensor ratified the gyro?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0489",
+      "prompt": "A clerk saw that the invoice received the bill. Did the invoice received the bill?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0490",
+      "prompt": "The reactor triggered the accord on Tuesday. Did the reactor triggered the accord?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0491",
+      "prompt": "The ballot posted the dose after review. Did the ballot posted the dose?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0492",
+      "prompt": "Minutes show the sample sealed the alarm. Did the sample sealed the alarm?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0493",
+      "prompt": "A clerk saw that the lease counted the charge. Did the lease counted the charge?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0494",
+      "prompt": "The probe logged the core on Tuesday. Did the probe logged the core?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0495",
+      "prompt": "The widget signed the vote after review. Did the widget signed the vote?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0496",
+      "prompt": "Minutes show the ledger calibrated the batch. Did the ledger calibrated the batch?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0497",
+      "prompt": "A clerk saw that the capsule approved the rider. Did the capsule approved the rider?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0498",
+      "prompt": "The relay ratified the gyro on Tuesday. Did the relay ratified the gyro?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    },
+    {
+      "id": "neg-0499",
+      "prompt": "The permit received the bill after review. Did the permit received the bill?",
+      "gold": "yes",
+      "prediction": "no",
+      "correct": false,
+      "split": "confirm",
+      "predicates": {
+        "has_negation": false,
+        "has_unit": false,
+        "has_number": false,
+        "has_uncommon_noun": false
+      }
+    }
+  ],
+  "n": 500,
+  "correct": 439,
+  "screenshot_accuracy": 0.878
+}
