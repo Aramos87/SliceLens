@@ -4,8 +4,8 @@ Tests are the deploy gate. The Docker image runs Vitest while building the front
 
 ## Suites
 
-- **pytest**: 26 tests. Health, the three bundled numbers, slice search, confirm vs did-not-replicate, residual empty state, predicate functions, no upload/LLM surface.
-- **vitest**: 7 tests. Dashed step, black button, green screenshot hero, rust rewrite, comparison row, badge legend, FAQ first question.
+- **pytest**: bundled numbers, slice search, confirm vs did-not-replicate, residual, predicates, plus pack/examples/analyze.
+- **vitest**: demo tabs, two columns, Find the hidden failure, comparison row, badges, FAQ, JSON editor.
 
 ```bash
 pip install -r requirements.txt

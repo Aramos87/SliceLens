@@ -6,14 +6,14 @@ Headline eval accuracy hides systematic failures. Slice Lens is one interaction:
 
 https://slice-lens-production.up.railway.app
 
-The public GitHub repo is this one. No API key. No upload. Three bundled runs.
+The public GitHub repo is this one. No API key. No file upload. Three bundled runs. You can edit the JSON in the page; it is not saved.
 
 ## What to click
 
-1. Leave **Negation trap** selected.
-2. Press the black button.
-3. Watch 87.8% become a 14% negation slice and a 96.0% “you’d have reported.”
-4. Open **Where did the errors go?**
+1. Stay on the **Negation trap** tab.
+2. Read the left column (what the test is, the field names, three sample rows).
+3. Press **Find the hidden failure**.
+4. On the right, 87.8% becomes a 14% negation slice and a 96.0% “you’d have reported.”
 5. Skim the FAQ at the bottom, starting with **What should I click first?**
 
 ## Demos

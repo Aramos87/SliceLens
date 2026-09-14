@@ -10,6 +10,8 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from app.engine import residual, screenshot_accuracy, search_slices
+from app.guide import guide_for
+from app.playground import PlaygroundError, pack_from_payload
 
 ROOT = Path(__file__).resolve().parent.parent
 DEMO_DIR = Path(__file__).resolve().parent / "demos"
@@ -21,6 +23,17 @@ app = FastAPI(title="Slice Lens", version="1.0.0")
 
 class ResidualBody(BaseModel):
     member_ids: list[str] = Field(default_factory=list)
+    items: list[dict] | None = None
+    title: str | None = None
+    id: str | None = None
+    blurb: str | None = None
+
+
+class AnalyzeBody(BaseModel):
+    title: str = "Edited run"
+    id: str = "edited-run"
+    blurb: str = "Session edit. Not saved."
+    items: list[dict] = Field(default_factory=list)
 
 
 @lru_cache(maxsize=1)
@@ -81,6 +94,52 @@ def residual_search(run_id: str, body: ResidualBody) -> dict:
     demo = _demos().get(run_id)
     if not demo:
         raise HTTPException(status_code=404, detail="unknown run")
+    result = residual(demo["items"], body.member_ids, run_title=demo["title"])
+    result["run"] = _summarize(demo)
+    return result
+
+
+@app.get("/api/runs/{run_id}/pack")
+def get_pack(run_id: str) -> dict:
+    demo = _demos().get(run_id)
+    if not demo:
+        raise HTTPException(status_code=404, detail="unknown run")
+    return demo
+
+
+@app.get("/api/runs/{run_id}/examples")
+def get_examples(run_id: str) -> dict:
+    demo = _demos().get(run_id)
+    if not demo:
+        raise HTTPException(status_code=404, detail="unknown run")
+    return {"run": _summarize(demo), "guide": guide_for(demo)}
+
+
+@app.post("/api/analyze")
+def analyze(body: AnalyzeBody) -> dict:
+    try:
+        demo = pack_from_payload(body.model_dump())
+    except PlaygroundError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    slices = search_slices(demo["items"], run_title=demo["title"])
+    return {"run": _summarize(demo), "slices": slices}
+
+
+@app.post("/api/analyze/residual")
+def analyze_residual(body: ResidualBody) -> dict:
+    if body.items is None:
+        raise HTTPException(status_code=400, detail="items required")
+    try:
+        demo = pack_from_payload(
+            {
+                "id": body.id or "edited-run",
+                "title": body.title or "Edited run",
+                "blurb": body.blurb or "Session edit. Not saved.",
+                "items": body.items,
+            }
+        )
+    except PlaygroundError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
     result = residual(demo["items"], body.member_ids, run_title=demo["title"])
     result["run"] = _summarize(demo)
     return result

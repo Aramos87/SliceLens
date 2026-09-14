@@ -48,3 +48,36 @@ export type FaqItem = {
   question: string;
   answer: string;
 };
+
+export type GuideTerm = {
+  key: string;
+  label: string;
+  meaning: string;
+};
+
+export type GuideExample = {
+  id: string;
+  kind: string;
+  prompt: string;
+  gold: string;
+  prediction: string;
+  correct: boolean;
+  split: string;
+  why: string;
+};
+
+export type Guide = {
+  one_line: string;
+  success: string;
+  expect: string;
+  predicates: GuideTerm[];
+  fields: GuideTerm[];
+  examples: GuideExample[];
+};
+
+export type DemoPack = {
+  id: string;
+  title: string;
+  blurb: string;
+  items: unknown[];
+};

@@ -8,10 +8,14 @@ A single accuracy number is a screenshot, not a finding. Systematic failures hid
 
 ## One interaction
 
+The page is two columns inside a tab per demo. Left is the test: what the questions are, what each field means, three sample rows, and the button. Right is the finding.
+
 1. **Vanity number** — overall accuracy on the bundled run. This is the green hero, the screenshot.
 2. **Interpretable slice** — a boolean predicate with an English label (`has negation`).
 3. **Rewrite** — rust hero plus the comparison row: screenshot / this slice / you’d have reported.
 4. **Confirm** — the same predicate on a split that was not used to decide whether the slice exists.
+
+A collapsed JSON editor on the left can re-run the same search on an in-memory edit. Nothing is uploaded or written to disk.
 
 ## Why predicates, not k-means
 
