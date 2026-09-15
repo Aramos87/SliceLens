@@ -2,7 +2,7 @@
 
 ## What should I click first?
 
-Leave Negation trap selected and press the black button in the dashed step. That is the whole demo. You should see 87.8% turn into a negation slice at 14% and a complement of 96.0% you’d have reported.
+Open the Negation trap tab. Read the left column — the story, the field names, and the three sample rows. Press Find the hidden failure. The right column should show 87.8% / 14% / 96.0% you’d have reported.
 
 ## Where did the errors go?
 
@@ -26,8 +26,8 @@ A cluster you cannot name is not an actionable eval finding. Slice Lens only sea
 
 ## Can I upload my own eval?
 
-No. This prototype is self-contained on purpose. Three JSON runs ship in the image. There is no file picker, no LLM API, and no embedding service.
+No file picker, no API key. You can open Edit this run (JSON), change the bundled questions, and press Run my edit. That stays in this browser session and is not saved.
 
 ## What should a reviewer spend five minutes on?
 
-Click once on Negation trap. Read the rust rewrite. Open this FAQ. Skim `DESIGN.md` and `POSTMORTEM.md`. That is the product.
+Open Negation trap. Read the left column. Press Find the hidden failure. Read the rust rewrite. Open this FAQ. Skim DESIGN.md and POSTMORTEM.md.

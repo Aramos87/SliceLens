@@ -9,9 +9,9 @@ A public URL that performs one trick well: it takes a shippable-looking accuracy
 ## The five-minute path
 
 1. Open the live URL from the README.
-2. Press the black button on **Negation trap**. Do not hunt for a second control.
-3. Confirm the green screenshot (87.8%) gives way to a rust rewrite, and that the comparison row reads screenshot / this slice / you’d have reported (87.8% / 14% / 96.0%).
-4. Click **Where did the errors go?**
+2. Stay on the **Negation trap** tab. Read the left column.
+3. Press **Find the hidden failure**.
+4. Confirm the green screenshot (87.8%) gives way to a rust rewrite, and that the comparison row reads screenshot / this slice / you’d have reported (87.8% / 14% / 96.0%).
 5. Scroll to the FAQ. Expand **What should I click first?**
 6. Optionally switch to **The average lied** and look at both badges.
 
