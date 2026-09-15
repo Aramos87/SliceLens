@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" width="920" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">Slice Lens architecture</title>
+  <desc id="desc">A reviewer uses the React UI, which calls a FastAPI service. The API reads bundled JSON demos and FAQ.md, then runs the slice engine over a four-predicate library. Search uses a discover split, a confirm split, and an optional residual pass.</desc>
+  <rect width="920" height="520" fill="#f3ede3"/>
+  <text x="40" y="42" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1a1510">Slice Lens  how the pieces fit</text>
+  <text x="40" y="66" font-family="Segoe UI, sans-serif" font-size="13" fill="#5c5348">One click in the UI. One engine. No uploads, no API keys, no Cluster 3.</text>
+
+  <!-- Reviewer -->
+  <rect x="40" y="100" width="160" height="72" rx="10" fill="#1a1510"/>
+  <text x="120" y="132" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#f7f1e8">Reviewer</text>
+  <text x="120" y="152" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#d9cfc3">one click</text>
+
+  <!-- UI -->
+  <rect x="260" y="88" width="200" height="96" rx="10" fill="#f7f1e8" stroke="#1a1510" stroke-width="2"/>
+  <text x="360" y="122" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1510">React SPA</text>
+  <text x="360" y="144" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">screenshot ’ slice</text>
+  <text x="360" y="160" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">’ rewrite ’ confirm</text>
+
+  <!-- API -->
+  <rect x="520" y="88" width="200" height="96" rx="10" fill="#f7f1e8" stroke="#1a1510" stroke-width="2"/>
+  <text x="620" y="122" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1510">FastAPI</text>
+  <text x="620" y="144" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">/search  /residual</text>
+  <text x="620" y="160" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">/runs  /faq  /health</text>
+
+  <!-- arrows top -->
+  <path d="M200 136 H252" stroke="#1a1510" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M460 136 H512" stroke="#1a1510" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Engine -->
+  <rect x="260" y="240" width="460" height="120" rx="12" fill="#1a1510"/>
+  <text x="490" y="276" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#f7f1e8">Slice engine</text>
+  <text x="490" y="300" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#d9cfc3">name the predicate · measure the slice · rewrite the complement</text>
+  <g>
+    <rect x="290" y="316" width="120" height="28" rx="6" fill="#1f6f4a"/>
+    <text x="350" y="335" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#f7f1e8">discover</text>
+    <rect x="430" y="316" width="120" height="28" rx="6" fill="#8c3a22"/>
+    <text x="490" y="335" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#f7f1e8">confirm</text>
+    <rect x="570" y="316" width="120" height="28" rx="6" fill="#f7f1e8"/>
+    <text x="630" y="335" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#1a1510">residual</text>
+  </g>
+
+  <path d="M620 184 V232" stroke="#1a1510" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Bottom stores -->
+  <rect x="40" y="400" width="250" height="80" rx="10" fill="#f7f1e8" stroke="#1a1510" stroke-width="1.5"/>
+  <text x="165" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1510">Bundled JSON runs</text>
+  <text x="165" y="454" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">3 demos · discover / confirm</text>
+
+  <rect x="335" y="400" width="250" height="80" rx="10" fill="#f7f1e8" stroke="#1a1510" stroke-width="1.5"/>
+  <text x="460" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1510">Predicate library</text>
+  <text x="460" y="454" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">negation · unit · number · noun</text>
+
+  <rect x="630" y="400" width="250" height="80" rx="10" fill="#f7f1e8" stroke="#1a1510" stroke-width="1.5"/>
+  <text x="755" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1510">FAQ.md</text>
+  <text x="755" y="454" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#5c5348">served as /api/faq</text>
+
+  <path d="M165 400 V360 H360 V360" stroke="#1a1510" stroke-width="1.5" fill="none"/>
+  <path d="M360 360 V360" stroke="#1a1510" stroke-width="1.5" fill="none"/>
+  <path d="M490 360 V400" stroke="#1a1510" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M460 400 V372 H490" stroke="#1a1510" stroke-width="1.5" fill="none"/>
+  <path d="M755 400 V372 H620" stroke="#1a1510" stroke-width="1.5" fill="none"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1510"/>
+    </marker>
+  </defs>
+</svg>

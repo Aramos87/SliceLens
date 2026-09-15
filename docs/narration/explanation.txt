@@ -1,0 +1,33 @@
+This is Slice Lens. A short spoken walkthrough of the problem, and how we solve it.
+
+The problem, in one sentence: a single accuracy number looks like a finding. It is usually just a screenshot.
+
+Imagine a model that answers short yes or no facts. A launch post says: accuracy, eighty-seven point eight percent. That number is true as arithmetic. It is false as a story.
+
+The errors are not sprinkled evenly. They pile up on one kind of prompt — the ones that contain a negation. Words like not, never, and without. On those items the model is at fourteen percent. On everything else it is at ninety-six. The headline is a blend. It hides a systematic failure behind a number you would happily paste into a slide.
+
+Clustering the leftovers does not fix this. Cluster three is not a sentence. A reviewer cannot grep it, unit-test it, or disagree with it.
+
+So what does solved have to mean? Four things, in public.
+
+Name the failure. A boolean predicate with an English label: has negation.
+
+Measure it. Accuracy on that slice, not just on the whole run.
+
+Rewrite the headline. What would you have reported if this slice were not in the eval? That is accuracy on the complement. We call it: you'd have reported.
+
+Confirm it. The same predicate on a held-out split that was not used to decide whether the slice exists. If it does not replicate, we say so on screen. We do not quietly drop it.
+
+Slice Lens is that loop, as one click. There is no file picker. There is no API key. Three eval runs ship inside the image.
+
+You pick a run — Negation trap, Units dropped, or The average lied — and you press Look through this run. The first thing on screen is the green hero: overall accuracy. We show it on purpose, so you feel the temptation to ship it.
+
+Then the rust hero replaces it. You see the slice accuracy, and a comparison row: screenshot, this slice, you'd have reported. On Negation trap that row is eighty-seven point eight, fourteen, and ninety-six.
+
+Architecture is small on purpose. A reviewer talks to a React page. The page talks to FastAPI. FastAPI reads bundled JSON demos and a FAQ. The slice engine runs four predicates — negation, unit, number, uncommon noun — on a discover split, then asks confirm. Residual search takes the items already claimed and asks: is that all? If nothing systematic remains, the empty state is a full sentence: nothing else is hiding.
+
+Why three demos? Negation trap is the hero: fourteen percent, confirmed. Units dropped shows the same trick on measurements. The average lied is the honesty check: has number holds, has uncommon noun does not. A tool that can only celebrate confirmed slices is a marketing site. A tool that keeps the miss on screen is an eval tool.
+
+The bet is simple. A tiny, named, confirmable predicate is worth more than a beautiful unlabeled map.
+
+Headline accuracy is a screenshot, not a finding. Name the slice.

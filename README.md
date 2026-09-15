@@ -39,4 +39,6 @@ Open http://127.0.0.1:8000. `GET /health` returns `{"status":"ok"}`.
 
 One Docker image. Tests run during the image build, so a red suite cannot become a live Railway service.
 
-See `TESTING.md`, `DESIGN.md`, and `POSTMORTEM.md`.
+See [`PROBLEM_AND_SOLUTION.md`](PROBLEM_AND_SOLUTION.md) for a plain-language walkthrough of the problem, the architecture, and how the demo solves it. Open [`docs/explainer.html`](docs/explainer.html) and press **Play voice** to hear that explanation spoken (sound on). [`docs/commercial.html`](docs/commercial.html) is the TV-ad storyboard.
+
+See also `TESTING.md`, `DESIGN.md`, and `POSTMORTEM.md`.
